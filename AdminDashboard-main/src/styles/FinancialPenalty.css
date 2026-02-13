@@ -1,0 +1,375 @@
+/* Color Palette: White and Beige only
+   Beige: #F5F5DC
+   White: #FFFFFF
+*/
+
+.financial-penalty-container {
+  min-height: 100vh;
+  background: #F5F5DC;
+  padding: 20px;
+}
+
+.penalty-header {
+  background: #FFFFFF;
+  border-radius: 15px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  color: #333333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #E0E0E0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.penalty-header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #333333;
+}
+
+.back-button {
+  background: #F5F5DC;
+  color: #333333;
+  border: 2px solid #E0E0E0;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+.header-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-button,
+.logout-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-button {
+  background: #F5F5DC;
+  color: #333333;
+  border: 2px solid #E0E0E0;
+}
+
+.nav-button:hover {
+  background: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+.logout-button {
+  background: #333333;
+  color: #FFFFFF;
+}
+
+.logout-button:hover {
+  background: #555555;
+  transform: translateY(-2px);
+}
+
+.penalty-info {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #E8E8E8;
+}
+
+.info-text {
+  color: #333333;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.penalty-summary-container {
+  background: #FFFFFF;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #E8E8E8;
+}
+
+.penalty-summary-container h2 {
+  margin: 0 0 20px 0;
+  color: #333333;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.summary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  overflow-x: auto;
+}
+
+.summary-row {
+  display: grid;
+  grid-template-columns: 120px 1fr 150px 180px 150px 140px;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid #E8E8E8;
+  background: #FFFFFF;
+  transition: all 0.2s ease;
+  gap: 12px;
+  min-width: 900px;
+}
+
+.summary-row:hover {
+  background: #F9F9F9;
+}
+
+.summary-row.header-row {
+  background: #FFFFFF;
+  color: #999999;
+  font-weight: 600;
+  border-bottom: 1px solid #E8E8E8;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 20px;
+}
+
+.summary-row.header-row .summary-cell {
+  color: #999999;
+  font-weight: bold;
+}
+
+.summary-cell {
+  color: #333333;
+  font-size: 0.95em;
+}
+
+.penalty-amount {
+  color: #DC3545;
+  font-weight: 600;
+}
+
+.final-salary {
+  color: #28A745;
+  font-weight: 600;
+}
+
+.view-details-button {
+  background: #4A90E2;
+  color: #FFFFFF;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-details-button:hover {
+  background: #357ABD;
+}
+
+.person-summary-card {
+  background: #FFFFFF;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #E8E8E8;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.summary-item {
+  text-align: center;
+}
+
+.summary-item h3 {
+  color: #666666;
+  font-size: 0.85em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.summary-value {
+  color: #333333;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.summary-value.salary {
+  color: #4A90E2;
+}
+
+.summary-value.penalty {
+  color: #DC3545;
+}
+
+.summary-value.final {
+  color: #28A745;
+}
+
+.penalties-container {
+  background: #FFFFFF;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #E8E8E8;
+}
+
+.penalties-container h2 {
+  margin: 0 0 20px 0;
+  color: #333333;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.penalties-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  overflow-x: auto;
+}
+
+.penalty-row {
+  display: grid;
+  grid-template-columns: 220px 1fr 150px;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid #E8E8E8;
+  background: #FFFFFF;
+  transition: all 0.2s ease;
+  gap: 12px;
+  min-width: 600px;
+}
+
+.penalty-row:hover {
+  background: #F9F9F9;
+}
+
+.penalty-row.header-row {
+  background: #FFFFFF;
+  color: #999999;
+  font-weight: 600;
+  border-bottom: 1px solid #E8E8E8;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 20px;
+}
+
+.penalty-row.header-row .penalty-cell {
+  color: #999999;
+  font-weight: bold;
+}
+
+.penalty-cell {
+  color: #333333;
+  font-size: 0.95em;
+}
+
+.penalty-timestamp {
+  color: #333333;
+  font-size: 0.9em;
+}
+
+.violation-badge {
+  display: inline-block;
+  background: #FFE5E5;
+  color: #DC3545;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.penalty-amount {
+  color: #DC3545;
+  font-weight: 600;
+}
+
+.no-penalties,
+.no-summary {
+  text-align: center;
+  padding: 60px 20px;
+  color: #333333;
+  font-size: 1.2em;
+}
+
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: #333333;
+  font-size: 1.5em;
+}
+
+@media (max-width: 1200px) {
+  .summary-row {
+    grid-template-columns: 100px 1fr 130px 150px 130px 120px;
+    font-size: 0.9em;
+    min-width: 800px;
+  }
+  
+  .penalty-row {
+    grid-template-columns: 200px 1fr 130px;
+    min-width: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  .summary-row,
+  .penalty-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 15px;
+    min-width: auto;
+  }
+  
+  .summary-row.header-row,
+  .penalty-row.header-row {
+    display: none;
+  }
+  
+  .summary-cell::before,
+  .penalty-cell::before {
+    content: attr(data-label) ": ";
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .penalty-header h1 {
+    font-size: 1.5em;
+  }
+  
+  .person-summary-card {
+    grid-template-columns: 1fr;
+  }
+}

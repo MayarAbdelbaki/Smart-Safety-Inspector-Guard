@@ -1,0 +1,6 @@
+# Requirements for PC Client (Python 3.6)
+# Install with: pip install -r requirements_pc_client.txt
+
+requests>=2.20.0,<2.28.0
+opencv-python>=4.0.0
+pyttsx3>=2.7

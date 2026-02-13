@@ -1,0 +1,7 @@
+# Requirements for AIot Autocar Prime (Python 3.6)
+# Install with: pip3 install -r requirements_autocar.txt
+
+requests>=2.20.0,<2.28.0
+opencv-python>=4.0.0
+pyttsx3>=2.7
+

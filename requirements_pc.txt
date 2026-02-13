@@ -1,0 +1,7 @@
+# Requirements for PC Server
+# Install with: pip install -r requirements_pc.txt
+
+Flask==2.0.3
+Werkzeug==2.0.3
+requests>=2.20.0
+gradio-client>=0.7.0
